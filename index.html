@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail-Template</title>
+    <script src="https://kit.fontawesome.com/337002c4cc.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    @media screen and (max-width:576px) {
+        body {
+            width: auto;
+            height: auto;
+        }
+
+        /* .nav-item{
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           gap: 10px;
+        } */
+        h1 {
+            font-size: auto;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .team {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .team-social {
+            display: flex;
+            justify-content: center;
+        }
+
+        .support {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .support img {
+            height: auto;
+            width: 500px;
+        }
+
+        .service1 {
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+
+        .service2 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .service {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-icon {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gallery-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .gallery-img1 {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        .gallery-small {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .event{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .footer-icon{
+            display: grid;
+            grid-template-columns: repeat(2, 3fr);
+            gap: 10px;
+        }
+    }
+
+
+
+
+    @media screen and (min-width:577px) and (max-width:922px) {
+        body {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .btn-primary:hover {
+        background-color: blue;
+    }
+
+    .btn-primary a:hover {
+        color: white;
+    }
+
+    .btn-primary1 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn-primary1 {
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        transition-duration: 0.4s;
+    }
+
+    .btn-primary1:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .btn-primary1 a:hover {
+        color: black;
+    }
+
+    .btn-primary2:hover {
+        background-color: blue;
+    }
+
+    .btn-primary2 .white:hover {
+        color: white;
+    }
+</style>
+
+<body style="width: 800px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <header
+        style="background-image: url(./images/set7-bg1.webp); background-repeat: no-repeat; height: auto; width: 100%; padding-bottom: 50px;">
+        <nav class="nav" style="display: flex; justify-content: space-around; padding-top: 80px;">
+            <div>
+                <img src="images/logo.webp" alt="">
+            </div>
+            <div class="nav-item">
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-solid fa-wifi"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-vimeo"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a style="color: white; padding-left: 10px;" href="#"> <i class="fa-solid fa-camera-retro"></i></a>
+            </div>
+        </nav>
+        <h1 style="text-align: center;color: white; font-size: 50px;position: relative; top: 50px;">HELLO & WELLCOME
+        </h1>
+        <h2 style="color: white;text-align: center; font-size: 25px; position: relative; top: 20px;">The Best Templates
+        </h2>
+        <p
+            style="text-align: center; color: white; font-size: 14px; position: relative; top: 20px; font-weight: lighter; opacity: 0.8;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aspernatur, quae <br> repudiandae. Tempore
+            id, cum.</p>
+        <div class="btn-primary"
+            style="display: flex; justify-content: center; width: 150px; height: 50px; border: 1px solid white;align-items: center; border-radius: 50px; margin-left: auto; margin-right: auto; margin-top: 50px; transition-duration: 0.5s;">
+            <a style=" color: white; font-size: 16px; text-decoration: none;" href="#"> JOIN NOW</a>
+        </div>
+    </header>
+    <main>
+        <!-- best seller section here -->
+        <section style="height: auto; margin: 0%;  background-color: #307ECC;">
+            <div class="team"
+                style="color: white; display: flex; justify-content: space-around; padding-top: 40px; padding-bottom: 40px;">
+                <div>
+                    <h2 style="color: white; font-size: 30px;">ITEM POPULAR & BEST SELLER</h2>
+                    <p style="color: white; font-size: 16px; font-weight: lighter; opacity: 0.8;">Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Natus <br> aspernatur, quae repudiandae.
+                        Tempore id, cum.</p>
+                    <div class="team-social" style="color: white; display: flex; gap: 10px; align-items: center;">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p>Like</p>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <p>Share</p>
+                    </div>
+                </div>
+                <i style="margin-top: 20px;" class="fa-solid fa-trophy fa-8x"></i>
+            </div>
+        </section>
+        <!-- best seller section end -->
+
+        <!-- support section here -->
+        <section>
+            <h2 style=" font-size: 30px; text-align: center;">OUR TEAM SUPPORT</h2>
+            <div class="support" style="display: flex; justify-content: space-around; ">
+                <div>
+                    <img src="images/set7-image1.jpg" alt="">
+                    <p style="font-size: 20px;">+100 Modula</p>
+                    <p>Lorem ipsum dolor sit <br> amet, consectetur ipsum</p>
+                </div>
+                <div>
+                    <img src="images/set7-image2.webp" alt="">
+                    <p style="font-size: 20px;">Full Support</p>
+                    <p>Lorem ipsum dolor sit <br> amet, consectetur ipsum</p>
+                </div>
+                <div>
+                    <img src="images/set7-image3.webp" alt="">
+                    <p style="font-size: 20px;">Update Soon</p>
+                    <p>Lorem ipsum dolor sit <br> amet, consectetur ipsum</p>
+                </div>
+            </div>
+            <hr style="width: 700px; margin-top: 20px; margin-bottom: 20px;">
+            <p style="text-align: left; margin-left: 50px; margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.
+                Natus aspernatur, quae <br> repudiandae. Tempore id, cum. <a href="#">Read more</a></p>
+        </section>
+        <!-- support section end -->
+
+        <!-- service section here -->
+        <section>
+            <div class="service1" style="display: flex; gap: 40px;">
+                <img src="images/set7-image4.webp" alt="">
+                <div class="service">
+                    <div class="service-icon" style="display: flex; align-items: center; gap: 10px;">
+                        <i style="color: blue ;" class="fa-solid fa-gear fa-2x"></i>
+                        <h2>COSTOMIZE</h2>
+                    </div>
+                    <p style="font-size: 16px; opacity: 0.8; font-weight: lighter;">Lorem ipsum dolor sit amet,
+                        consectetur orem ipsum dolor sit amet, consectetur adipis cing Ut a justo iaculis lectus feugiat
+                        faucibus. Curabitur consectetur orem ipsum dolor</p>
+                    <div class="service-icon" style="display: flex; align-items: center; gap: 10px;">
+                        <i style="color: blue ;" class="fa-solid fa-lock fa-2x"></i>
+                        <h2>COLLECTION</h2>
+                    </div>
+                    <p style="font-size: 16px; opacity: 0.8; font-weight: lighter;">Lorem ipsum dolor sit amet,
+                        consectetur orem ipsum dolor sit amet, consectetur adipis cing Ut a justo iaculis lectus feugiat
+                        faucibus. Curabitur consectetur orem ipsum dolor</p>
+
+                    <div class="btn-primary1">
+                        <a href="#"> JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service2"
+                style="display: flex; gap: 40px; background-color: #307ECC;padding-left: 10px; color: white; ">
+                <div class="service" style="padding-top: 10px;">
+                    <div class="service-icon" style="display: flex;align-items: center; gap: 10px;">
+                        <i style="color: white;" class="fa-solid fa-mobile-screen-button fa-2x"></i>
+                        <h2>100% RESPONSIVE</h2>
+                    </div>
+                    <p style="font-size: 16px; opacity: 0.8; font-weight: lighter;">Lorem ipsum dolor sit amet,
+                        consectetur orem ipsum dolor sit amet, consectetur adipis cing Ut a justo iaculis lectus feugiat
+                        faucibus. Curabitur consectetur orem ipsum dolor</p>
+                    <div class="service-icon" style="display: flex;align-items: center; gap: 10px;">
+                        <i style="color: white;" class="fa-solid fa-user-lock fa-2x"></i>
+                        <h2>USER FRIENDLY</h2>
+                    </div>
+                    <p style="font-size: 16px; opacity: 0.8; font-weight: lighter;">Lorem ipsum dolor sit amet,
+                        consectetur orem ipsum dolor sit amet, consectetur adipis cing Ut a justo iaculis lectus feugiat
+                        faucibus. Curabitur consectetur orem ipsum dolor</p>
+                    <div class="btn-primary2"
+                        style="display: flex; justify-content: center; width: 150px; height: 50px; align-items: center; border-radius: 50px; transition-duration: 0.5s; border: 1px solid white; ">
+                        <a class="white" style=" color: white; font-size: 16px; text-decoration: none;" href="#"> JOIN
+                            NOW</a>
+                    </div>
+                </div>
+                <img src="images/set7-image5.webp" alt="">
+            </div>
+        </section>
+        <!-- service section end -->
+
+        <!-- about section here -->
+        <section
+            style="background-image: url(./images/bg.webp); width: auto; height: 100%; background-repeat: no-repeat;color: white; padding-left: 100px; padding-top: 40px; padding-bottom: 50px;">
+            <p style="font-weight: 900; font-size: 22px;">About Us</p>
+            <p style="font-size: 40px; font-weight: bolder;">We Love It <br> Awesome Theam <span
+                    style="color: #307ECC;">Multimail</span></p>
+            <div style="width: 80px; height: 3px; background-color: #307ECC; position: relative; bottom: 15px;"></div>
+            <div style="margin-top: 10px;">
+                <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-facebook"></i></a>
+                <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-twitter"></i></a>
+                <a style="color: white; padding-left: 5px;" href="#"><i
+                        class="fa-1x fa-brands fa-google-plus-g"></i></a>
+                <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-youtube"></i></a>
+                <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-linkedin"></i></a>
+                <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-pinterest"></i></a>
+            </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- gallery section here -->
+        <section>
+            <h2
+                style="text-align: center; font-size: 30px; margin-top: 50px; font-weight: bolder; margin-bottom: 50px;">
+                Our Gallery</h2>
+
+            <div class="gallery-img1" style="display: flex;gap: 30px; justify-content: center;">
+                <img src="images/1.webp" alt="">
+                <div class="gallery-small">
+                    <img src="images/2.webp" alt="">
+                    <p style="opacity: 0.8;">Lorem ipsum dolor sit amet,consectetur <br> orem ipsum dolor sit amet,
+                        consectetur <br>adipiscing elit.</p>
+                    <div style="display: flex; align-items: center; gap: 15px;">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>November 2015</p>
+                        <i style="color: red;" class="fa-regular fa-heart"></i>
+                        <p>309</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-img" style="display: flex; gap: 30px;justify-content: center; margin-top: 30px;">
+                <img src="images/3.jpg" alt="">
+                <img src="images/4.webp" alt="">
+            </div>
+            <div class="gallery-img" style="display: flex; gap: 25px;margin-top: 30px;justify-content: center;">
+                <img src="images/5.jpg" alt="">
+                <img src="images/6.webp" alt="">
+                <img src="images/7.jpg" alt="">
+            </div>
+            <p style="color: grey; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+                aspernatur, quae <br> repudiandae. Tempore id, cum.</p>
+            <div class="btn-primary1" style="margin-left: auto; margin-right: auto;">
+                <a href="#"> REAL MORE</a>
+            </div>
+        </section>
+        <!-- gallery section end -->
+
+        <!-- design section here -->
+        <section
+            style="background-image: url(./images/down\ bg.webp); background-repeat: no-repeat;width: auto;height: auto;">
+            <h2 style="text-align: center; color: white;font-size: 30px; font-weight: bolder; padding-top: 30px;">Oue
+                Products Design</h2>
+            <div style="text-align: center;"><img src="images/boy.webp" alt=""></div>
+            <div style="color: white; display: flex; align-items: center; gap: 10px; justify-content: center;">
+                <a style="color: white;" href="#"><i class="fa-regular fa-user"></i></a>
+                <p>Jhon Doe</p>
+                <a style="color: white;" href="#"><i class="fa-regular fa-comments"></i></a>
+                <p>200</p>
+                <a style="color: white;" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a style="color: white;" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p style="color: white; text-align: center; padding-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Natus aspernatur, quae <br> repudiandae. Tempore id, cum.</p>
+        </section>
+        <!-- design section end -->
+
+        <!-- our product section here -->
+        <section class="product" style="display: flex;gap: 50px; justify-content: center; margin-top: 50px;">
+            <div>
+                <div style="display: flex;align-items: center; gap: 5px;">
+                    <i style="color: #307ECC;" class="fa-2x fa-solid fa-circle-check"></i>
+                    <h2 style="font-size: 30px;">Our Products</h2>
+                </div>
+                <img src="images/product1.webp" alt="">
+            </div>
+            <div>
+                <div style="display: flex; gap: 10px;margin-top: 20px;">
+                    <img src="images/product2.webp" alt="">
+                   <div>
+                    <p style="color: gray;">Lorem ipsum dolor sit amet <br> consectetur.</p>
+                    <div style="display: flex;align-items: center;gap: 10px;">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>November 15</p>
+                    </div>
+                   </div>
+                </div>
+                <div style="display: flex; gap: 10px;margin-top: 20px;">
+                    <img src="images/product3.webp" alt="">
+                   <div>
+                    <p style="color: gray;">Lorem ipsum dolor sit amet <br> consectetur.</p>
+                    <div style="display: flex;align-items: center;gap: 10px;">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>November 15</p>
+                    </div>
+                   </div>
+                </div>
+                <div style="display: flex; gap: 10px;margin-top: 20px;">
+                    <img src="images/product4.webp" alt="">
+                   <div>
+                    <p style="color: gray;">Lorem ipsum dolor sit amet <br> consectetur.</p>
+                    <div style="display: flex;align-items: center;gap: 10px;">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>November 15</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!-- our product section end -->
+
+        <!-- event section here -->
+        <section style="background-color: #2B3239;padding: 80px; margin-top: 50px;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <img  src="images/event.webp" alt="" width="100px" height="100px">
+            </div>
+            <div class="event" style="display: flex;color: white; gap: 50px;font-size: 18px;text-align: center;">
+                <p>Lorem Lorem ipsum dolor sit amet, consectetur orem ipsum dolor sit amet, consectetur adipiscing elit. Ut a justo iaculis lectus feugiat faucibus</p>
+                <p>Lorem Lorem ipsum dolor sit amet, consectetur orem ipsum dolor sit amet, consectetur adipiscing elit. Ut a justo iaculis lectus feugiat faucibus</p>
+            </div>
+        </section>
+        <!-- event section end -->
+    </main>
+    <footer style="background-color: #307ECC; padding: 80px; text-align: center; color: white;">
+        <div class="footer-icon">
+            <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-facebook"></i></a>
+            <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-twitter"></i></a>
+            <a style="color: white; padding-left: 5px;" href="#"><i
+                    class="fa-1x fa-brands fa-google-plus-g"></i></a>
+            <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-youtube"></i></a>
+            <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-linkedin"></i></a>
+            <a style="color: white; padding-left: 5px;" href="#"><i class="fa-1x fa-brands fa-pinterest"></i></a>
+        </div>
+        <p>Company Name 1234 Street Stage Post 1234</p>
+        <p style="font-size: 18px;margin-top: 10px;">Unsbscribe</p>
+    </footer>
+</body>
+
+</html>
